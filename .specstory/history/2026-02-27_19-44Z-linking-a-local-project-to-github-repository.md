@@ -55,3 +55,81 @@ If you haven't already, you'll need to authenticate. The easiest ways are:
 
 ---
 
+_**User (2026-02-27 19:49Z)**_
+
+git remote add origin https://github.com/superginger24/CBC.git
+git branch -M main
+git add .
+git commit -m "Initial commit"
+git push -u origin main
+
+---
+
+_**Agent (model copilot/claude-sonnet-4.6)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="run_in_terminal">
+<details>
+<summary>Tool use: **run_in_terminal**</summary>
+
+
+Parameters:
+
+```json
+{
+  "kind": "terminal",
+  "terminalToolSessionId": "ea5a1368-42ca-4e21-a4d8-20f35d40317e",
+  "terminalCommandId": "tool-aefd6fbd-d9e8-4d75-8c31-937f0351322b",
+  "commandLine": {
+    "original": "cd \"c:\\Users\\JackL\\Desktop\\CBC\"; git remote add origin https://github.com/superginger24/CBC.git; git branch -M main; git add .; git commit -m \"Initial commit\"; git push -u origin main",
+    "toolEdited": "git remote add origin https://github.com/superginger24/CBC.git; git branch -M main; git add .; git commit -m \"Initial commit\"; git push -u origin main"
+  },
+  "language": "pwsh"
+}
+```
+Additional data:
+
+```json
+{
+  "vscodeToolId": "run_in_terminal",
+  "isHidden": false
+}
+```
+Result:
+
+```json
+{
+  "invocationMessage": "Using \"Run in Terminal\"",
+  "isConfirmed": {
+    "type": 4
+  },
+  "content": "",
+  "textEditContent": "",
+  "toolCallResult": null
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+---
+
+Everything worked! Your local project is now linked to GitHub and the initial commit has been pushed. Here's a summary of what happened:
+
+- ✅ Remote `origin` set to `https://github.com/superginger24/CBC.git`
+- ✅ Branch renamed to `main`
+- ✅ **2 files** committed and pushed
+- ✅ Local `main` branch is now tracking `origin/main`
+
+You can view your repo at: **https://github.com/superginger24/CBC**
+
+From now on, whenever you make changes, just run:
+```powershell
+git add .
+git commit -m "your message"
+git push
+```
+
+---
+
