@@ -14,3 +14,65 @@ body {
   color: #f0fdf4;
   font-family: 'Inter', sans-serif;
 }
+
+/* Pixel art step animations */
+@keyframes pixel-float {
+  0%   { transform: translateY(0px); }
+  50%  { transform: translateY(-6px); }
+  100% { transform: translateY(0px); }
+}
+
+@keyframes pixel-wiggle {
+  0%   { transform: rotate(0deg); }
+  25%  { transform: rotate(-8deg); }
+  75%  { transform: rotate(8deg); }
+  100% { transform: rotate(0deg); }
+}
+
+@keyframes pixel-bounce {
+  0%   { transform: translateY(0px) scale(1); }
+  40%  { transform: translateY(-8px) scale(1.05); }
+  60%  { transform: translateY(-8px) scale(1.05); }
+  100% { transform: translateY(0px) scale(1); }
+}
+
+@keyframes pixel-spin {
+  0%   { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes pixel-pulse {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(1.15); }
+  100% { transform: scale(1); }
+}
+
+.anim-float {
+  animation: pixel-float 2.4s steps(6, end) infinite;
+  display: inline-block;
+}
+
+.anim-wiggle {
+  animation: pixel-wiggle 1.8s steps(4, end) infinite;
+  display: inline-block;
+}
+
+.anim-bounce {
+  animation: pixel-bounce 2s steps(5, end) infinite;
+  display: inline-block;
+}
+
+.anim-spin {
+  animation: pixel-spin 4s steps(8, end) infinite;
+  display: inline-block;
+}
+
+.anim-pulse {
+  animation: pixel-pulse 2s steps(4, end) infinite;
+  display: inline-block;
+}
+
+.anim-delay-1 { animation-delay: 0.3s; }
+.anim-delay-2 { animation-delay: 0.6s; }
+.anim-delay-3 { animation-delay: 0.9s; }
+.anim-delay-4 { animation-delay: 1.2s; }

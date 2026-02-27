@@ -47,7 +47,7 @@ export default function WhyItWorks() {
               key={r.title}
               className="flex gap-5 bg-green-950/20 border border-green-900/30 rounded-2xl p-7 hover:border-green-700/50 transition-all"
             >
-              <div className="text-3xl shrink-0 mt-1">{r.icon}</div>
+              <div className="text-3xl shrink-0 mt-1"><span className={r.anim}>{r.icon}</span></div>
               <div>
                 <h3 className="text-lg font-bold text-white mb-2">{r.title}</h3>
                 <p className="text-green-200/55 text-sm leading-relaxed">{r.desc}</p>

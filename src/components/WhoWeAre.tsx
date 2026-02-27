@@ -4,18 +4,21 @@ const team = [
     role: "Former Cart Boy → Outside Ops Lead",
     bio: "Started at the bag drop just like you. Learned through years of shifts, hundreds of rounds, and more bag tags than you can count. Built a reputation on hustle and real connections with guests.",
     emoji: "⛳",
+    anim: "anim-bounce",
   },
   {
     name: "The Method",
     role: "Built From Real Reps",
     bio: "Everything in CBC comes from real experience on real courses — not theory. Every tip, every line, every move was tested on the floor and proven to work.",
-    emoji: "🏌️",
+    emoji: "🏷️",
+    anim: "anim-wiggle anim-delay-1",
   },
   {
     name: "The Mission",
     role: "Elevate the Outside Game",
-    bio: "Outside ops is the most underrated role on a golf course. We're here to change that. If you show up with the right mindset and the right moves, you will get paid.",
+    bio: "Outside ops is the most underrated role on a golf course. We’re here to change that. If you show up with the right mindset and the right moves, you will get paid.",
     emoji: "💰",
+    anim: "anim-float anim-delay-2",
   },
 ];
 
@@ -42,7 +45,7 @@ export default function WhoWeAre() {
               key={item.name}
               className="bg-green-950/30 border border-green-800/30 rounded-2xl p-8 hover:border-green-600/50 transition-all group"
             >
-              <div className="text-4xl mb-4">{item.emoji}</div>
+              <div className="text-4xl mb-4"><span className={item.anim}>{item.emoji}</span></div>
               <h3 className="text-xl font-bold text-white group-hover:text-green-400 transition-colors">
                 {item.name}
               </h3>
