@@ -19,26 +19,26 @@ const modules = [
   },
   {
     number: "04",
-    title: "Greeting Golfers",
-    desc: "Don't be standoffish. This might be someone's first round ever. Be there to help, not judge. Hand out something free before they even tee off — that's how tips start.",
+    title: "Greeting Golfers to the Course",
+    desc: "Don't be standoffish — this could be someone's first time ever on a course. Be there to help, not to judge. Hand out a free tee, a yardage guide, anything you can offer before their round even starts. That generosity is how tips begin.",
     tag: "Guest Experience",
   },
   {
     number: "05",
     title: "Giving Directions",
-    desc: "Know your course inside and out. Practice a clear, confident set of directions. Guests who feel taken care of from the start tip at the end.",
+    desc: "Have a clear, practiced plan for how you explain the course layout. Know every hole, every cart path, every shortcut. Guests who feel informed and taken care of from the start are the ones who tip when they come back in.",
     tag: "Course Knowledge",
   },
   {
     number: "06",
     title: "Getting Them to Their Tee Time",
-    desc: "Be friendly, be timely. Ask if they need anything. This small interaction sets the tone for the entire round — and for what happens when they come back in.",
+    desc: "Be friendly, be timely, and ask if they need anything before they head out. This small interaction sets the tone for their entire round — and directly affects what happens when they come back off 18.",
     tag: "Flow & Hospitality",
   },
   {
     number: "07",
-    title: "The Turn — Where Tips Are Made",
-    desc: "This is the most important part of your shift. Greet them with a smile and a wet towel. Offer to clean clubs, blow off shoes. Hustle visibly. Ask great questions — 'Any birdies out there?' 'You guys need dinner recs?' Connect with them. That's the money.",
+    title: "Guests Coming Off the Course",
+    desc: "This is the most important part of your shift. Greet every group with a smile and a wet towel ready to go. Offer to clean their clubs and blow off or wipe down their shoes — show visible effort and hustle. Have a game plan: take their bag to the car or let them know you can drop it at bag drop. Then connect with them — 'Any birdies out there today?' 'Need any dinner or food recommendations?' 'Are you from around the area?' That connection is what earns the tip.",
     tag: "⭐ The Money Moment",
     highlight: true,
   },
@@ -56,7 +56,7 @@ export default function Modules() {
             <span className="text-green-400">One elite shift.</span>
           </h2>
           <p className="mt-4 text-green-200/50 max-w-xl mx-auto text-lg">
-            From the moment you clock in to the moment you're folding that last cart towel — we cover every part of your day.
+            From the moment you walk in the door to the moment that last bag hits the car — we cover every part of your day.
           </p>
         </div>
 

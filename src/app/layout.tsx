@@ -4,6 +4,19 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Cart Boy Consulting | CBC",
   description: "Hustle. Effort. Good Attitude. The blueprint for elite golf course outside ops.",
+  openGraph: {
+    title: "Cart Boy Consulting | CBC",
+    description: "The course nobody gives you — but every cart boy needs. Learn how to show up, stand out, and stack tips.",
+    url: "https://cbc.purefectgolf.com",
+    siteName: "Cart Boy Consulting",
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Cart Boy Consulting | CBC",
+    description: "The course nobody gives you — but every cart boy needs.",
+  },
 };
 
 

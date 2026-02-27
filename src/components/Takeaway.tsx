@@ -1,3 +1,5 @@
+import WaitlistForm from "@/components/WaitlistForm";
+
 export default function Takeaway() {
   return (
     <section id="takeaway" className="py-28 px-6 relative overflow-hidden">
@@ -23,14 +25,11 @@ export default function Takeaway() {
         {/* Divider */}
         <div className="my-10 border-t border-green-900/40" />
 
-        {/* CTA */}
-        <a
-          href="#modules"
-          className="inline-block bg-green-500 hover:bg-green-400 text-black font-black px-10 py-5 rounded-full text-lg transition-all shadow-xl shadow-green-500/20"
-        >
-          Start the Course — It's Free →
-        </a>
-        <p className="mt-4 text-green-700 text-sm">No fluff. Just the blueprint.</p>
+        {/* Waitlist */}
+        <p className="text-green-400 font-bold text-lg">Be the first to know when CBC launches.</p>
+        <p className="text-green-200/50 text-sm mt-1">Drop your email and we&apos;ll hit you when it&apos;s ready.</p>
+        <WaitlistForm />
+        <p className="mt-5 text-green-700 text-sm">No fluff. No spam. Just the blueprint.</p>
       </div>
     </section>
   );
