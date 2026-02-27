@@ -1,21 +1,25 @@
 const reasons = [
   {
     icon: "🤝",
+    anim: "anim-wiggle",
     title: "Guests Remember How You Made Them Feel",
     desc: "A warm greeting, a free tee, a genuine conversation — those aren't extras. They're the job. And they're what separates a $5 tip from a $20 tip.",
   },
   {
     icon: "💡",
+    anim: "anim-pulse anim-delay-1",
     title: "Most Cart Boys Are Never Trained",
     desc: "Nobody sits you down and explains how to read a guest, handle the turn, or what to say when someone comes off the 18th. We fix that.",
   },
   {
     icon: "🔁",
+    anim: "anim-spin anim-delay-2",
     title: "Consistency Builds a Reputation",
     desc: "Regulars come back for the course — and for the people. When you're known as the guy who hustles, your tips become reliable income.",
   },
   {
     icon: "📈",
+    anim: "anim-bounce anim-delay-3",
     title: "Small Habits = Big Results",
     desc: "Tucking in your shirt, knowing your course directions, having a bag on the car before they ask — these tiny things stack up over every single shift.",
   },
